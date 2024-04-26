@@ -1,6 +1,6 @@
 import { ChangeEvent, useEffect, useRef } from 'react';
 
-import { Tool } from '@/cohere-client';
+import { Tool } from '@/tinygrid-client';
 import { ComposerFiles } from '@/components/Conversation/ComposerFiles';
 import { ComposerMenu } from '@/components/Conversation/ComposerMenu';
 import { Icon, STYLE_LEVEL_TO_CLASSES } from '@/components/Shared';

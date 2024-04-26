@@ -1,7 +1,7 @@
 import { uniqBy } from 'lodash';
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 
-import { FILE_TOOL_CATEGORY, Tool } from '@/cohere-client';
+import { FILE_TOOL_CATEGORY, Tool } from '@/tinygrid-client';
 import Composer from '@/components/Conversation/Composer';
 import { Header } from '@/components/Conversation/Header';
 import MessagingContainer from '@/components/Conversation/MessagingContainer';

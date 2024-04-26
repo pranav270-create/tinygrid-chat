@@ -1,7 +1,7 @@
 import { RadioGroup } from '@headlessui/react';
 import React from 'react';
 
-import { DEFAULT_CHAT_TOOL } from '@/cohere-client';
+import { DEFAULT_CHAT_TOOL } from '@/tinygrid-client';
 import { OptionCard } from '@/components/Messages/Welcome/OptionCard';
 import { Text } from '@/components/Shared';
 import { useFocusComposer } from '@/hooks/actions';

@@ -3,7 +3,7 @@ import { flatten, sortBy, uniqBy } from 'lodash';
 import React, { useRef } from 'react';
 import { useMemo, useState } from 'react';
 
-import { Document } from '@/cohere-client';
+import { Document } from '@/tinygrid-client';
 import { CitationDocument } from '@/components/Citations/CitationDocument';
 import IconButton from '@/components/IconButton';
 import { Text } from '@/components/Shared/Text';

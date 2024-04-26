@@ -1,4 +1,8 @@
-import Lottie from 'react-lottie-player';
+import dynamic from 'next/dynamic';
+
+const Lottie = dynamic(() => import('react-lottie-player'), { ssr: false });
+
+// import Lottie from 'react-lottie-player';
 
 import logoTyping from '@/assets/lotties/icon-loop-coral-50.json';
 import logoTypingMushroom from '@/assets/lotties/icon-loop-coral-mushroom.json';

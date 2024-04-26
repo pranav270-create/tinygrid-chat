@@ -3,7 +3,7 @@ import { GetServerSideProps, NextPage } from 'next';
 import { useRouter } from 'next/router';
 import { useEffect } from 'react';
 
-import { CohereClient, Document } from '@/cohere-client';
+import { CohereClient, Document } from '@/tinygrid-client';
 import Conversation from '@/components/Conversation';
 import { ConversationError } from '@/components/ConversationError';
 import ConversationListPanel from '@/components/ConversationList/ConversationListPanel';

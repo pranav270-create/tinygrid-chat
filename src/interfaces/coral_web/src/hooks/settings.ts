@@ -1,4 +1,4 @@
-import { DEFAULT_CHAT_TEMPERATURE } from '@/cohere-client';
+import { DEFAULT_CHAT_TEMPERATURE } from '@/tinygrid-client';
 
 export const useSettingsDefaults = () => {
   return {

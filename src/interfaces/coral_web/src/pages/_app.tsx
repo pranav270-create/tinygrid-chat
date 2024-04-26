@@ -8,7 +8,7 @@ import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import fetch from 'cross-fetch';
 import type { AppProps } from 'next/app';
 
-import { CohereClient, CohereClientProvider, Fetch } from '@/cohere-client';
+import { CohereClient, CohereClientProvider, Fetch } from '@/tinygrid-client';
 import { ToastNotification } from '@/components/Shared';
 import { WebManifestHead } from '@/components/Shared';
 import { GlobalHead } from '@/components/Shared/GlobalHead';

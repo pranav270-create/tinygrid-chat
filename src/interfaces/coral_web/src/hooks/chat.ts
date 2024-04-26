@@ -19,7 +19,7 @@ import {
   isCohereNetworkError,
   isSessionUnavailableError,
   isStreamError,
-} from '@/cohere-client';
+} from '@/tinygrid-client';
 import { DEPLOYMENT_COHERE_PLATFORM } from '@/constants';
 import { useRouteChange } from '@/hooks/route';
 import { StreamingChatParams, useStreamChat } from '@/hooks/streamChat';

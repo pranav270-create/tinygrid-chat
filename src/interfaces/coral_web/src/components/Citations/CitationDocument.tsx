@@ -1,6 +1,6 @@
 import { Fragment, useContext, useState } from 'react';
 
-import { DEFAULT_CHAT_TOOL, Document } from '@/cohere-client';
+import { DEFAULT_CHAT_TOOL, Document } from '@/tinygrid-client';
 import IconButton from '@/components/IconButton';
 import { DocumentIcon, Text } from '@/components/Shared';
 import { Icon } from '@/components/Shared/Icon';

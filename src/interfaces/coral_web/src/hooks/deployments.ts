@@ -1,6 +1,6 @@
 import { useQuery } from '@tanstack/react-query';
 
-import { Deployment, useCohereClient } from '@/cohere-client';
+import { Deployment, useCohereClient } from '@/tinygrid-client';
 
 /**
  * @description Hook to get available deployments.

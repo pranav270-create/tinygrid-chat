@@ -1,4 +1,4 @@
-import { Citation } from '@/cohere-client';
+import { Citation } from '@/tinygrid-client';
 
 /**
  * Replace text string with citations following the format:

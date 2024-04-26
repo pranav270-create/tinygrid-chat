@@ -1,6 +1,6 @@
 import { StateCreator } from 'zustand';
 
-import { Document } from '@/cohere-client';
+import { Document } from '@/tinygrid-client';
 
 import { StoreState } from '..';
 

@@ -130,15 +130,15 @@ module.exports = {
         'icon-xl': ['36px', { lineHeight: '100%' }],
       },
       fontFamily: {
-        body: ['Arial',...defaultTheme.fontFamily.sans],
-        variable: ['Arial', ...defaultTheme.fontFamily.serif],
-        code: defaultTheme.fontFamily.mono,
+        body: ['Aliance No. 2'],
+        variable: ['Aliance No. 2'],
+        code: ['Aliance No. 2'],
         iconOutline: ['CohereIconOutline'],
         iconDefault: ['CohereIconDefault'],
       },
       fontWeight: {
         // Bolded fonts will always use Cohere Variable with the weight 525
-        medium: '525',
+        medium: '300',
       },
     },
   },

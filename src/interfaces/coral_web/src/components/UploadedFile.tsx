@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { File } from '@/cohere-client';
+import { File } from '@/tinygrid-client';
 import { BasicButton, Icon, Text } from '@/components/Shared';
 import { formatFileSize } from '@/utils';
 

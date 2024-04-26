@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 import { Flipped, Flipper } from 'react-flip-toolkit';
 
-import { ConversationWithoutMessages as Conversation } from '@/cohere-client';
+import { ConversationWithoutMessages as Conversation } from '@/tinygrid-client';
 import {
   ConversationCard,
   ConversationListItem,

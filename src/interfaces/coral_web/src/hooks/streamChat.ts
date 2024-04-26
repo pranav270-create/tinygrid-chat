@@ -12,7 +12,7 @@ import {
   StreamEvent,
   isUnauthorizedError,
   useCohereClient,
-} from '@/cohere-client';
+} from '@/tinygrid-client';
 
 interface StreamingParams {
   onRead: (data: ChatResponse) => void;

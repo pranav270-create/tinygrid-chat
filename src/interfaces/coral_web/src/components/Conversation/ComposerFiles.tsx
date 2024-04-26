@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { UploadFile } from '@/cohere-client';
+import { UploadFile } from '@/tinygrid-client';
 import { UploadedFile } from '@/components/UploadedFile';
 import { UploadingFile } from '@/components/UploadingFile';
 import { UploadingFile as UploadingFileType } from '@/stores/slices/filesSlice';

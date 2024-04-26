@@ -1,7 +1,7 @@
 import { uniq } from 'lodash';
 import React, { Fragment } from 'react';
 
-import { Tool } from '@/cohere-client';
+import { Tool } from '@/tinygrid-client';
 import { FilesSection } from '@/components/Configuration/Files';
 import { ToolsInfoBox } from '@/components/Configuration/ToolsInfoBox';
 import { Checkbox, Switch, Text } from '@/components/Shared';

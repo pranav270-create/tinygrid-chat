@@ -1,6 +1,6 @@
 import { Fragment, useEffect, useMemo } from 'react';
 
-import { ListFile } from '@/cohere-client';
+import { ListFile } from '@/tinygrid-client';
 import { Text, Tooltip } from '@/components/Shared';
 import { useFocusFileInput } from '@/hooks/actions';
 import { useFilesInConversation } from '@/hooks/files';

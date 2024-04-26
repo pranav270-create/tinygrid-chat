@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import { isNotFoundError } from '@/cohere-client';
+import { isNotFoundError } from '@/tinygrid-client';
 import { Header } from '@/components/Conversation/Header';
 import { Icon } from '@/components/Shared/Icon';
 import { Text } from '@/components/Shared/Text';

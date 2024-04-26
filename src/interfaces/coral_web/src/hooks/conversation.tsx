@@ -8,7 +8,7 @@ import {
   ConversationWithoutMessages,
   UpdateConversation,
   useCohereClient,
-} from '@/cohere-client';
+} from '@/tinygrid-client';
 import { DeleteConversations } from '@/components/Modals/DeleteConversations';
 import { EditConversationTitle } from '@/components/Modals/EditConversationTitle';
 import { useContextStore } from '@/context';

@@ -1,4 +1,4 @@
-import { Message, MessageAgent } from '@/cohere-client';
+import { Message, MessageAgent } from '@/tinygrid-client';
 import { BotMessage, BotState, MessageType, UserMessage } from '@/types/message';
 import { replaceTextWithCitations } from '@/utils/citations';
 

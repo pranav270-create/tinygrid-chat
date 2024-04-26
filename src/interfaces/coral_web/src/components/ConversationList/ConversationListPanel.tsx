@@ -2,7 +2,7 @@ import { Transition } from '@headlessui/react';
 import { useClickOutside } from '@react-hookz/web';
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 
-import { ConversationWithoutMessages as Conversation } from '@/cohere-client';
+import { ConversationWithoutMessages as Conversation } from '@/tinygrid-client';
 import { ConversationListHeader } from '@/components/ConversationList/ConversationListHeader';
 import { ConversationListLoading } from '@/components/ConversationList/ConversationListLoading';
 import { ConversationListPanelGroup } from '@/components/ConversationList/ConversationListPanelGroup';

@@ -1,4 +1,4 @@
-import { Citation, File } from '@/cohere-client';
+import { Citation, File } from '@/tinygrid-client';
 
 export enum BotState {
   LOADING = 'loading',

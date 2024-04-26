@@ -22,7 +22,7 @@ export const NavigationBar: React.FC<{ className?: string }> = ({ className = ''
           <Logo />
         </div>
       </Link>
-      <DeploymentsDropdown />
+      {/* <DeploymentsDropdown /> */}
     </nav>
   );
 };

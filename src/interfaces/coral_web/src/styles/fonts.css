@@ -13,3 +13,11 @@
   font-style: normal;
   font-display: block;
 }
+
+@font-face {
+  font-family: 'Aliance No. 2';
+  src: url('../../public/fonts/AlianceNo2-Light.woff2') format("woff2"),
+  url('../../public/fonts/AlianceNo2-Light.woff') format("woff");
+  font-weight: normal;
+  font-style: normal;
+}

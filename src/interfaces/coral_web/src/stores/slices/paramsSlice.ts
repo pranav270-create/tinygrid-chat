@@ -1,6 +1,6 @@
 import { StateCreator } from 'zustand';
 
-import { CohereChatRequest, DEFAULT_CHAT_TEMPERATURE } from '@/cohere-client';
+import { CohereChatRequest, DEFAULT_CHAT_TEMPERATURE } from '@/tinygrid-client';
 
 import { StoreState } from '..';
 

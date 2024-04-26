@@ -1,5 +1,5 @@
 module.exports = {
-  presets: [require('./src/themes/cohereTheme')],
+  presets: [require('./src/themes/tinygridTheme')],
   content: ['src/**/*.{js,jsx,ts,tsx}'],
   plugins: [require('@tailwindcss/typography')],
   theme: {
