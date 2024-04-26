@@ -1,5 +1,6 @@
 import { RadioGroup } from '@headlessui/react';
 import React from 'react';
+import Typist from 'react-typist';
 
 import { DEFAULT_CHAT_TOOL } from '@/tinygrid-client';
 import { OptionCard } from '@/components/Messages/Welcome/OptionCard';
@@ -73,9 +74,26 @@ export const StartOptions: React.FC<{
   };
 
   return (
-    <div className="flex flex-col items-center gap-y-6">
-      <Text styleAs="h4">Choose an option to get started</Text>
-      <RadioGroup
+    <div className="flex flex-col items-center gap-y-100 justify-center h-full">
+        <Typist cursor={{ show: false }} avgTypingDelay={15}>
+          Welcome to Atlas<sup className="text-p-sm">&copy;</sup>, our AI model that enables you to reason over complex legal codes and intricate permitting processes. 
+      </Typist>
+      <Text className="text-sm text-volcanic-600 font-body">
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+        What would you like to know today?
+      </Text>
+      {/* <RadioGroup
         value={selectedOption}
         onChange={(key: StartOptionKey) => {
           const { onChange } = START_OPTIONS[key];
@@ -88,7 +106,7 @@ export const StartOptions: React.FC<{
           const option = START_OPTIONS[key];
           return <OptionCard key={key} value={key as StartOptionKey} {...option} />;
         })}
-      </RadioGroup>
+      </RadioGroup> */}
     </div>
   );
 };

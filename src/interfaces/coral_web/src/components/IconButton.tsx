@@ -35,7 +35,7 @@ const IconButton: React.FC<Props> = ({
         <Icon
           name={iconName}
           className={cn(
-            'text-secondary-700 group-hover:text-secondary-800',
+            'text-secondary-800 group-hover:text-secondary-800',
             'transition-colors ease-in-out',
             {
               'group-hover:!font-iconDefault': isDefaultOnHover,

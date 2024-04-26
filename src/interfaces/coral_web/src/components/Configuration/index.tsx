@@ -15,7 +15,7 @@ export const Configuration: React.FC = () => {
 
   return (
     <section id={CONFIGURATION_PANEL_ID} className="h-full w-full overflow-y-auto rounded-b-lg">
-      <Tabs
+      {/* <Tabs
         tabs={TABS.map((t) => t.name)}
         selectedIndex={selectedIndex}
         onChange={setSelectedIndex}
@@ -24,7 +24,7 @@ export const Configuration: React.FC = () => {
         fitTabsContent={true}
       >
         {TABS.map((t) => createElement(t.component, { key: t.name }))}
-      </Tabs>
+      </Tabs> */}
     </section>
   );
 };

@@ -36,19 +36,20 @@ export const ConfigurationDrawerButton: React.FC<Props> = ({ className = '' }) =
   return (
     <div className={cn('relative', className)}>
       <BasicButton
-        label={<Text styleAs="overline">Tools</Text>}
-        kind="tertiary"
+        label={<Text styleAs="overline">Documents</Text>}
+        kind="secondary"
         size="sm"
         dataTestId="button-grounding-drawer"
         startIcon={<Dot on={isGroundingOn} />}
         onClick={handleGroundingClick}
+        hasBorders={false}
       />
-      <WelcomeGuideTooltip
+      {/* <WelcomeGuideTooltip
         step={1}
         className={cn('right-0 top-full mt-9', {
           'delay-1000': !welcomeGuideState || welcomeGuideState === WelcomeGuideStep.ONE,
         })}
-      />
+      /> */}
     </div>
   );
 };

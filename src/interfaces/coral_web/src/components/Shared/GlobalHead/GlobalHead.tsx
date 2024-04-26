@@ -5,11 +5,11 @@ import Head from 'next/head';
  */
 export const GlobalHead: React.FC = () => {
   const description =
-    'Cohere provides access to advanced Large Language Models and NLP tools through one easy-to-use API. Get started for free.';
+    'Tinygrid Atlas Chat';
 
   return (
     <Head>
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/favicon_other.ico" />
       <meta name="description" content={description} />
       <meta
         name="viewport"

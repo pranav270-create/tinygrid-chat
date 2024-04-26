@@ -13,7 +13,7 @@ export const NavigationBar: React.FC<{ className?: string }> = ({ className = ''
     <nav
       className={cx(
         'z-navigation flex w-full items-center justify-between rounded-lg border px-4 py-3',
-        'border-marble-400 bg-marble-100',
+        'border-marble-400 bg-white',
         className
       )}
     >

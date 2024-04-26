@@ -40,18 +40,18 @@ export const Avatar: React.FC<Props> = ({ message }) => {
         'flex flex-shrink-0 items-center justify-center rounded text-white',
         'h-7 w-7 md:h-9 md:w-9',
         {
-          'bg-volcanic-500': isErroredOrAborted,
+          'bg-marble-400': isErroredOrAborted,
           'bg-primary-900': isWelcome,
-          'bg-quartz-700': isUser,
+          'bg-volcanic-900': isUser,
         },
         isGroundingOn
           ? {
-              'bg-primary-900': isFulfilled,
-              'bg-primary-400': isTypingOrLoading,
+              'bg-volcanic-900': isFulfilled,
+              'bg-volcanic-500': isTypingOrLoading,
             }
           : {
-              'bg-secondary-400': isFulfilled,
-              'bg-secondary-200': isTypingOrLoading,
+              'bg-marble-400': isFulfilled,
+              'bg-marble-200': isTypingOrLoading,
             }
       )}
     >
@@ -67,23 +67,27 @@ export const Avatar: React.FC<Props> = ({ message }) => {
   );
 };
 
-const BotAvatar: React.FC<{
-  state: BotState;
-  style: React.ComponentProps<typeof CoralLogo>['style'];
-}> = ({ state, style }) => {
-  if (state === BotState.TYPING || state === BotState.LOADING) {
-    return (
-      <Lottie
-        animationData={style === 'secondary' ? logoTypingMushroom : logoTyping}
-        play
-        loop
-        className="h-5 w-5 md:h-7 md:w-7"
-      />
-    );
-  }
-  return <CoralLogo style={style} className="h-4 w-4 md:h-5 md:w-5" />;
+// const BotAvatar: React.FC<{
+//   state: BotState;
+//   style: React.ComponentProps<typeof CoralLogo>['style'];
+// }> = ({ state, style }) => {
+//   if (state === BotState.TYPING || state === BotState.LOADING) {
+//     return (
+//       <Lottie
+//         animationData={style === 'secondary' ? logoTypingMushroom : logoTyping}
+//         play
+//         loop
+//         className="h-5 w-5 md:h-7 md:w-7"
+//       />
+//     );
+//   }
+//   return <CoralLogo style={style} className="h-4 w-4 md:h-5 md:w-5" />;
+// };
+
+const BotAvatar: React.FC = () => {
+  return <Icon name="globe-stand" className="text-icon-md text-black lg:text-icon-lg" />;
 };
 
 const UserAvatar: React.FC = () => {
-  return <Icon name="profile" className="text-icon-md text-white md:text-icon-lg" />;
+  return <Icon name="profile" className="text-icon-md text-white lg:text-icon-lg" />;
 };

@@ -130,14 +130,14 @@ const MessageRow = forwardRef<HTMLDivElement, Props>(function MessageRowInternal
         className={cn(
           'group flex h-fit w-full flex-col gap-2 rounded-md p-2 text-left md:flex-row',
           'transition-colors ease-in-out',
-          'hover:bg-secondary-50',
+          'hover:bg-secondary-300',
 
           {
-            'bg-secondary-50':
+            'bg-secondary-300':
               isFulfilledOrTypingMessage(message) &&
               message.generationId &&
               hoveredGenerationId === message.generationId,
-            'bg-primary-50 hover:bg-primary-50': highlightMessage,
+            'bg-primary-100 hover:bg-primary-100': highlightMessage,
           }
         )}
         {...(enableLongPress && longPressProps)}

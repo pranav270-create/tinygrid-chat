@@ -52,7 +52,7 @@ export const ConfigurationDrawer: React.FC = () => {
           />
           <span className="flex items-center gap-2">
             <Dot on={isGroundingOn} />
-            <Text styleAs="p-lg">Tools</Text>
+            <Text styleAs="p-lg">Documents</Text>
           </span>
         </header>
         <Configuration />

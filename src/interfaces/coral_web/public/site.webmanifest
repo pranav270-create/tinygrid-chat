@@ -1,7 +1,7 @@
 {
-  "name": "Coral",
-  "description": "Cohere presents Coral, a knowledge assistant for enterprises to supercharge the productivity of their most strategic teams.",
-  "short_name": "Coral",
+  "name": "Atlas",
+  "description": "Tinygrid presents Atlas, a knowledge assistant for legal and permitting documents for renewable energy projects.",
+  "short_name": "Atlas",
   "start_url": "/",
   "scope": "/",
   "orientation": "portrait",

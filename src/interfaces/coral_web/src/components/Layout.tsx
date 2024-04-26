@@ -57,7 +57,7 @@ export const Layout: React.FC<Props> = ({ title = 'TinyGrid', children }) => {
   return (
     <>
       <PageHead title={capitalize(title)} />
-      <div className="flex h-screen w-full flex-1 flex-col gap-3 bg-secondary-100 p-3">
+      <div className="flex h-screen w-full flex-1 flex-col gap-3 bg-marble-200 p-3">
         <NavigationBar />
         {bannerMessage && <Banner size="sm">{bannerMessage}</Banner>}
 
