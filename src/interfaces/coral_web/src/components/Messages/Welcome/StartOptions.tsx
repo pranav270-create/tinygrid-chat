@@ -1,6 +1,6 @@
 import { RadioGroup } from '@headlessui/react';
 import React from 'react';
-import Typist from 'react-typist';
+import Typewriter from 'typewriter-effect';
 
 import { DEFAULT_CHAT_TOOL } from '@/tinygrid-client';
 import { OptionCard } from '@/components/Messages/Welcome/OptionCard';
@@ -73,11 +73,18 @@ export const StartOptions: React.FC<{
     setParams(params);
   };
 
+  // TODO: Fix this to accept children like Text
   return (
-    <div className="flex flex-col items-center gap-y-100 justify-center h-full">
-        <Typist cursor={{ show: false }} avgTypingDelay={15}>
-          Welcome to Atlas<sup className="text-p-sm">&copy;</sup>, our AI model that enables you to reason over complex legal codes and intricate permitting processes. 
-      </Typist>
+    <div className="flex flex-col items-center gap-y-6">
+      <Typewriter 
+        options={{ 
+        strings:["Welcome to Atlas, our AI model that enables you to reason over complex legal codes and intricate permitting processes.", " ", "Ask something to get started today", " "],
+        autoStart:true,
+        delay:30,
+        deleteSpeed: 0,
+        loop:true,
+        }}>
+      </Typewriter>
       <Text className="text-sm text-volcanic-600 font-body">
       <br />
       <br />

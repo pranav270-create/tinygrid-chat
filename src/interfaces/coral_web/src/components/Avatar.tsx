@@ -57,8 +57,6 @@ export const Avatar: React.FC<Props> = ({ message }) => {
     >
       {isBot && (
         <BotAvatar
-          state={message.state}
-          style={isErroredOrAborted ? 'grayscale' : isGroundingOn ? 'primary' : 'secondary'}
         />
       )}
 

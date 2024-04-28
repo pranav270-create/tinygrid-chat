@@ -36,7 +36,7 @@ export const ConfigurationDrawerButton: React.FC<Props> = ({ className = '' }) =
   return (
     <div className={cn('relative', className)}>
       <BasicButton
-        label={<Text styleAs="overline">Documents</Text>}
+        label={<Text>Documents</Text>}
         kind="secondary"
         size="sm"
         dataTestId="button-grounding-drawer"

@@ -1,5 +1,4 @@
 import { Transition } from '@headlessui/react';
-import Typist from 'react-typist';
 
 import { StartOptionKey, StartOptions } from '@/components/Messages/Welcome/StartOptions';
 import { useShowWelcomeGuide } from '@/hooks/ftux';
